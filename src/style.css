@@ -1,4 +1,31 @@
-h1{
-    color : white;
+.hero{
+    background-color: #f9f7fe;
+    font-family: playfair display;
+    padding: 100px;
+}
+
+.hero h1{
+    font-size : 60px;
+}
+
+.hero  .greeting{
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero button{
+    font-family: poppins;
+    font-weight: bold;
+    background-color: #6c63ff;
+    border: #6c63ff;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.hero button:hover{
+    color : black;
 }
 
