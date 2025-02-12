@@ -1,31 +1,57 @@
-.hero{
-    background-color: #f9f7fe;
-    font-family: playfair display;
-    padding: 100px;
+body {
+  font-family: poppins;
 }
 
-.hero h1{
-    font-size : 60px;
+h4 {
+  font-family: playfair display;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-.hero  .greeting{
-    font-family: poppins;
-    font-size: 36px;
-    font-weight: bold;
+.hero {
+  background-color: #f9f7fe;
+  font-family: playfair display;
+  padding: 200px;
 }
 
-.hero button{
-    font-family: poppins;
-    font-weight: bold;
-    background-color: #6c63ff;
-    border: #6c63ff;
-    padding: 15px;
-    color: white;
-    border-radius: 5px;
+.hero h1 {
+  font-size: 60px;
 }
 
-
-.hero button:hover{
-    color : black;
+.hero .greeting {
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: bold;
 }
 
+.hero button {
+  font-family: poppins;
+  font-weight: bold;
+  background-color: #6c63ff;
+  border: #6c63ff;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.app-description {
+  color: #6c757d;
+}
+
+.project-info{
+    padding : 150px;
+}
+
+.learn-more-btn {
+  color: #6c63ff;
+  font-size: 20px;
+  padding: 20px;
+  border: 1px solid #6c63ff;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.hero button:hover,
+.learn-more-btn:hover {
+  color: black;
+}
