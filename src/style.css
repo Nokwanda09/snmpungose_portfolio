@@ -14,8 +14,9 @@ h4 {
   padding: 200px;
 }
 
-.hero h1 {
+h1 {
   font-size: 60px;
+  font-family: playfair display;
 }
 
 .hero .greeting {
@@ -24,7 +25,7 @@ h4 {
   font-weight: bold;
 }
 
-.hero button {
+button {
   font-family: poppins;
   font-weight: bold;
   background-color: #6c63ff;
@@ -42,6 +43,10 @@ h4 {
     padding-top : 150px;
 }
 
+.about{
+  padding : 200px;
+}
+
 .learn-more-btn {
   color: #6c63ff;
   font-size: 20px;
@@ -51,7 +56,6 @@ h4 {
   background-color: #ffffff;
 }
 
-.hero button:hover,
-.learn-more-btn:hover {
+button:hover {
   color: black;
 }
