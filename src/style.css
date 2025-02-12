@@ -11,7 +11,8 @@ h4 {
 .hero {
   background-color: #f9f7fe;
   font-family: playfair display;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 h1 {
@@ -39,12 +40,12 @@ button {
   color: #6c757d;
 }
 
-.project-info{
-    padding-top : 150px;
+.project-info {
+  padding-top: 150px;
 }
 
-.about{
-  padding : 200px;
+.about {
+  padding: 200px;
 }
 
 .learn-more-btn {
@@ -54,6 +55,21 @@ button {
   border: 1px solid #6c63ff;
   border-radius: 5px;
   background-color: #ffffff;
+}
+
+.navigation-bar {
+  background-color: #f9f7fe;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.nav-link{
+  color :#5c6369;
+  font-weight : bold;
+}
+
+.active{
+  color : #6c63ff;
 }
 
 button:hover {
