@@ -72,6 +72,21 @@ button {
   color : #6c63ff;
 }
 
-button:hover {
+.contact{
+  background-color : #f9f7fe;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  max-width: 60%;
+  margin-left: 20%;
+  font-family: playfair display;
+}
+
+.icon a{
+  color :  #6c63ff;
+  font-size: 30px;
+}
+
+
+button:hover, .icon a:hover {
   color: black;
 }
