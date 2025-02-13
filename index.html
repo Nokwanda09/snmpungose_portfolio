@@ -47,13 +47,13 @@
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about.html">About</a>
+        <a class="nav-link" href="/index.html#about-me-btn">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/work.html">Work</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contact.html">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
     <div class="hero text-center">
@@ -62,74 +62,45 @@
       <p class="fs-2">
         B Accounting Graduate <span class="fw-bold">|</span> Software Engineer
       </p>
-      <a href="/contact.html"><button>Contact me</button></a>
+      <button id="about-me-button">About Me</button>
     </div>
 
-    <div class="container text-center">
-      <div class="row project-info">
-        <div class="col d-none d-lg-block">
-          <br />
-          <br />
-          <br />
-          <img
-            src="src/images/weather.png"
-            alt="Weather App image"
-            class="img-fluid rounded"
-          />
-        </div>
-        <div class="col p-3">
-          <h4 class="p-3">The Weather App</h4>
-          <p class="app-description p-2">
-            The Weather App is a user-friendly web application that provides
-            real-time weather updates for any location worldwide. Users can
-            search for a city or use their current location to receive detailed
-            information, including temperature, weather conditions, humidity,
-            and wind speed. The app is built using HTML, CSS, JavaScript, and
-            Bootstrap for a seamless and responsive interface. It fetches live
-            weather data from the OpenWeatherMap API, ensuring accurate and
-            up-to-date information. It is hosted on Netlify.
-          </p>
-          <a href="/work.html"
-            ><button class="learn-more-btn">Learn more</button></a
-          >
-        </div>
-      </div>
-      <div class="row project-info">
-        <div class="col">
-          <h4 class="p-3">Task Management App</h4>
-          <p class="app-description p-2">
-            A Task Management App is a productivity tool that runs on linux. It
-            is designed to helps users organize, track, and manage tasks. It
-            allows them to create, update, prioritize, and categorize tasks
-            based on importance and deadlines.
-          </p>
-          <a href="/work.html"
-            ><button class="learn-more-btn">Learn more</button></a
-          >
-        </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="https://c8.alamy.com/comp/HDE0BN/work-in-progress-grunge-rubber-stamp-on-white-background-vector-illustration-HDE0BN.jpg"
-            alt="Task management app image"
-            class="img-fluid"
-          />
-        </div>
+    <div class="about text-center" id="about-me"></div>
+
+    <div class="card text-center">
+      <div class="card-body">
+        <p class="fs-2 fw-bold">Technologies</p>
+        <img src="/src/icons/java.svg" class="technologies-icon m-2">
+        <img src="/src/icons/javascript.svg" class="technologies-icon m-2">
+        <img src="/src/icons/python.svg" class="technologies-icon m-2">
+        <img src="/src/icons/html.svg" class="technologies-icon m-2">
+        <img src="/src/icons/css.svg" class="technologies-icon m-2">
+        <img src="/src/icons/icons8-bootstrap.svg" class="technologies-icon m-2">
+        <img src="/src/icons/database-svgrepo-com.svg" class="technologies-icon m-2">
+        <img src="/src/icons/git-icon-logo-svgrepo-com.svg" class="technologies-icon m-2">
       </div>
     </div>
 
-    <div class="card text-center contact">
+    <div class="card text-center" id="contact">
       <div class="card-body">
         <p class="fs-2 fw-bold">Let's get in touch!</p>
         <span class="icon m-4">
-          <a href="https://www.linkedin.com/in/singabenkosi-mpungose-b9009a24/" target="_blank"><i class="fa-brands fa-linkedin"></i></a
+          <a
+            href="https://www.linkedin.com/in/singabenkosi-mpungose-b9009a24/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i></a
         ></span>
         <span class="icon m-4">
-          <a href="https://github.com/Nokwanda09" target="_blank"><i class="fa-brands fa-github"></i></a
+          <a href="https://github.com/Nokwanda09" target="_blank"
+            ><i class="fa-brands fa-github"></i></a
         ></span>
         <span class="icon m-4">
-          <a href="mailto:mpungosesingabenkosi@gmail.com"><i class="fa-solid fa-envelope"></i></a
+          <a href="mailto:mpungosesingabenkosi@gmail.com"
+            ><i class="fa-solid fa-envelope"></i></a
         ></span>
       </div>
     </div>
+
+    <script src="/src/index.js"></script>
   </body>
 </html>
